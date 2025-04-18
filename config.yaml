@@ -1,0 +1,13 @@
+cameras:
+  - ip: 192.168.0.150
+    login: admin
+    password: !Decor_2025
+    name: cam1
+  - ip: 192.168.0.151
+    login: admin
+    password: !Decor_2025
+    name: cam2
+output_dir: "./photos"  # Директория для сохранения фото
+telegram:
+  bot_token: "123:ABC"  # Опционально для уведомлений
+  chat_id: "alekseykuzn"
